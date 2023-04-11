@@ -7,7 +7,7 @@ info:
   description: Enumerating different HTTP methods enabled by the server
   tags: misconfig
 
-requests:
+http:
   - raw:
     - |
       {{method}} / HTTP/1.1
