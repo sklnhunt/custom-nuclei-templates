@@ -1,6 +1,22 @@
 # Nuclei Templates
 
-* List of custom nuclei templates are created to detect vulnerabilities in the web applications, APIs.
+* List of custom YAML based nuclei templates created to detect vulnerabilities in the web applications, APIs.
+
+### Running Nuclei Templates with Nuclei
+
+* Install nuclei from [here](https://github.com/projectdiscovery/nuclei)
+
+* Run nuclei with target domain
+
+```
+nuclei -u https://target.com -t cross-origin-resource-sharing.yaml
+```
+
+* Run nuclei with list of URLs
+
+```
+nuclei -l URLslist.txt -t custom-nuclei-templates/
+```
 
 
 ---
