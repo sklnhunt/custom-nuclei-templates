@@ -7,7 +7,7 @@ info:
   description: Clickjacking is caused due to allowing permission to a third party website to embed the vulnerable site using Iframe.
   tags: misconfig
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}"
