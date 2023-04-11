@@ -7,7 +7,7 @@ info:
   description: The HTTP Strict-Transport-Security response header (often abbreviated as HSTS) informs browsers that the site should only be accessed using HTTPS
   tags: misconfig
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}"
