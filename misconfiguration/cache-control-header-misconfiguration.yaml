@@ -16,5 +16,5 @@ http:
       - type: regex
         name: cache-control header
         regex:
-          - "cache-control: private"
+          - "(?i)cache-control: private"
         part: header
