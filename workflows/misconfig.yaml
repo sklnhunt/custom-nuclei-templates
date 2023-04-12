@@ -1,0 +1,11 @@
+
+id: misconfig-workflow
+
+info:
+  name: Misconfiguration Security Checks
+  author: thevillagehacker
+  description: A simple workflow that runs all misconfig related nuclei templates on a given target.
+
+workflows:
+  - template: misconfiguration/
+  - tags: misconfig
