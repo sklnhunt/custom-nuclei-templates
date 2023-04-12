@@ -17,4 +17,9 @@ http:
         name: private directive
         regex:
           - "(?i)cache-control:\s*private"
+        part: 
+      - type: regex
+        name: transform directive
+        regex:
+          - "(?i)cache-control:\s*transform"
         part: header
