@@ -16,5 +16,5 @@ http:
       - type: regex
         name: private directive
         regex:
-          - "(?i)cache-control:\s*private"
+          - "(?i)cache-control: private"
         part: header
