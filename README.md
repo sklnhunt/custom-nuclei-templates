@@ -24,7 +24,7 @@ nuclei -l URLslist.txt -t custom-nuclei-templates/
 nuclei -u https://example.com -w workflow/workflow.yaml
 ```
 
-* Run workflow againt list of URLs
+* Run workflow against list of URLs
 
 ```sh
 nuclei -l URLslist.txt -w workflow/workflow.yaml
