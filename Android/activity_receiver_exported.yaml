@@ -13,5 +13,6 @@ file:
     extractors:
       - type: regex
         name: exported_activity_receiver
+        part: body
         regex:
           - '.*android:exported="true".*'
