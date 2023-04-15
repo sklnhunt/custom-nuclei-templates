@@ -1,0 +1,17 @@
+id: android-manifest-activity-receiver-exported
+
+info:
+  name: Activity and Receiver are exported
+  author: sklnhunt
+  severity: low
+  description: check the exported activity, receiver, provider
+
+file:
+  - extensions:
+    - xml
+  
+    extractors:
+      - type: regex
+        name: exported_activity_receiver
+        regex:
+          - '.*android:exported="true".*'
