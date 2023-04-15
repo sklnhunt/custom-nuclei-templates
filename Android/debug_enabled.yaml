@@ -13,5 +13,6 @@ file:
     matchers:
       - type: word
         name: debuggable_is_True
+        part: body
         words:
           - 'android:debuggable="true"'
