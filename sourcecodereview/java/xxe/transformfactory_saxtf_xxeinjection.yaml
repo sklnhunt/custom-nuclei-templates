@@ -4,7 +4,7 @@ info:
   name: XML External Entities (TransformerFactory or SAXTransformerFactory)
   author: sklnhunt
   severity: critical
-  description: XXE (XML External Entity) attacks in Java involve exploiting vulnerabilities in XML parsers to read sensitive files on the server or execute arbitrary code. These attacks can be mitigated by disabling external entity processing or using a secure XML parser such as SAXParser or DocumentBuilderFactory.
+  description: XXE (XML External Entity) attacks in Java involve exploiting vulnerabilities in XML parsers to read sensitive files on the server or execute arbitrary code. These attacks can be mitigated by disabling external entity processing or using a secure XML parser such as TransformerFactory or SAXTransformerFactory.
   reference: https://portswigger.net/web-security/xxe
   tags: java
 
